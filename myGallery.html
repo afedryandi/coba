@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MA-Gallery</title>
+    <link rel="stylesheet" href="styleMyGallery.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img
+            src="https://drive.google.com/uc?export=view&id=1YrRD0tJEG-UmJ-aQeh9sN5pNW7eGt_ZY"
+          />
+          <a href="">MA</a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="myGallery">
+                <a href="myGallery.html">My Gallery</a>
+              </div>
+            </li>
+            <li><a href="aboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="welcome">
+      <form class="form" action="">
+        <input
+          class="searchBar"
+          type="text"
+          placeholder="Search.."
+          name="search"
+        />
+        <select class="category" name="category" id="">
+          <option value="All">All</option>
+          <option value="Artist">Artist</option>
+          <option value="Travel">Travel</option>
+          <option value="Fashion">Fashion</option>
+          <option value="Abstrak">Abstrak</option>
+          <option value="Sport">Sport</option>
+          <option value="Art">Art</option>
+          <option value="Food & Drink">Food & Drink</option>
+          <option value="Nature">Nature</option>
+          <option value="Cities">Cities</option>
+          <option value="Animals">Animals</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="container">
+      <div class="grid"></div>
+    </div>
+
+    <div class="modal"></div>
+
+    <script type="module" src="./gallery.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
